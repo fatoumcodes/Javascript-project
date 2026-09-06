@@ -1,0 +1,20 @@
+body {
+    background-color:#D4B483;
+}
+h1 {
+    color: #6B3E26;
+}
+input {
+    width: 300px;
+    padding: 10px;
+    border: 3px solid #6B3E26;
+    border-radius: 10px;
+
+}
+
+button { background-color: #294936;
+         color: antiquewhite;
+         padding: 10px;
+         border: 3px solid #6B3E26;
+         border-radius: 15px;
+}
