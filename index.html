@@ -3,18 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> My Book Tracker</title>
+    <title> The Reading Room</title>
     <link rel="stylesheet" href="output.css">
 </head>
-<body class="bg-[#D4B483]">
-    <h1 class="text-4xl text-[#6B3E26]">My Book Tracker</h1>
-    <input type="text" 
-            placeholder="Enter book title" 
-            class="w-[300px] p-[10px] border-[3px_solid_#6B3E26]">
-    <input type="text" placeholder="Enter book author">
-    <button> Book button </button>
+<body class="bg-[#D4B483] flex justify-center">
     <div>
+    
+        <h1 class="text-4xl text-[#6B3E26]">THE READING ROOM</h1>
+        <p class="italic text-[#4A2C20] mb-[10px] mt-[10px] text-[20px]">What Are You In The Mood To Read?</p>
+        <div class="flex flex-wrap justify-center gap-3"> 
+            <button id="exhausted" class="bg-[#F3E9D2] text-[#4A2C20] px-4 py-2 rounded-[10px] border border-[#6B3E26] font-semibold cursor-pointer hover:bg-[#E8D5B5]">Exhausted</button>
+            <button id="emotionally-destroyed" class="bg-[#F3E9D2] text-[#4A2C20] px-4 py-2 rounded-[10px] border border-[#6B3E26] font-semibold cursor-pointer hover:bg-[#E8D5B5]" >Emotionally Destroyed</button>
+            <button id="motivated" class="bg-[#F3E9D2] text-[#4A2C20] px-4 py-2 rounded-[10px] border border-[#6B3E26] font-semibold cursor-pointer hover:bg-[#E8D5B5]">Motivated</button>
+            <button id="cheerful" class="bg-[#F3E9D2] text-[#4A2C20] px-4 py-2 rounded-[10px] border border-[#6B3E26] font-semibold cursor-pointer hover:bg-[#E8D5B5]">Cheerful</button>
+            <button id="sweet-melancholy" class="bg-[#F3E9D2] text-[#4A2C20] px-4 py-2 rounded-[10px] border border-[#6B3E26] font-semibold cursor-pointer hover:bg-[#E8D5B5]">Sweet Melancholy</button>
+        </div>     
+            <button id="find-book" class="bg-[#294936] text-[rgb(250,235,215)] p-[10px] border-solid border-[#6B3E26] rounded-[15px] font-bold w-[150px] cursor-pointer">
+                Find Book</button>
 
+            <div id="artwork"></div>
+            <div id="recommendation"></div>    
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
