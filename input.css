@@ -1,1 +1,9 @@
 @import "tailwindcss";
+.book-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(41, 73, 54, 0.15);
+}
